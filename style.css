@@ -144,6 +144,9 @@ h3 {
     text-align: center;
     font: 300 22px/150% "Lato", Open-Sans, sans-serif; }
 
+.contact {
+  padding-bottom: 35px; }
+
 .contact p {
   text-align: center;
   font: 300 22px/150% "Lato", Open-Sans, sans-serif; }
@@ -156,6 +159,15 @@ h3 {
   margin-top: 20px;
   margin-bottom: 20px; }
 
-iframe {
-  width: 100%;
-  padding-top: 35px; }
+.slicknav_menu {
+  display: none; }
+
+#menu {
+  display: none; }
+
+@media (max-width: 768px) {
+  .mainnav {
+    display: none; }
+
+  .slicknav_menu {
+    display: block; } }

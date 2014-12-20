@@ -8,25 +8,6 @@ include('includes/header.php');
 
 <body>
 
-  <nav class = "mainnav">
-          <ul>
-            <li><a href="#about">About</li></a>
-            <li><a href="#">Areas of Focus</li></a>
-            <li><a href="#">Testimonials</li></a>
-            <li><a href="#">Contact</li></a>
-            <li>1120 Finch Avenue West <span class = "vertical"></span> T: 416-667-9393</li>
-          </ul>
-  </nav>
-
-
-  <section class="mainheader">
-    <div class="titlebanner">
-        <h1>Law Offices of R. Richard Stone</h1>
-        <h2>Barrister and Solicitor</h2>
-        <h2>Since 1975</h2>
-    </div>
-  </section>
-
   <div class="line"></div>
   
   <section class = "container about" id = "about">
@@ -35,9 +16,6 @@ include('includes/header.php');
         <h3>About Us</h3>
         <p>Over the past 40 years the Law Offices of R. Richard Stone has established itself as a model for legal performance in the Greater Toronto Area. Our goal is to provde our clients with piece of mind and strong representation during this difficult period.</p>
   
-        <div class="learnmore">
-         <p>Learn More</p>
-        </div>
 
       </div>
 
@@ -45,9 +23,13 @@ include('includes/header.php');
 
   </section>
 
+  <div class="learnmore">
+    <p>Learn More</p>
+  </div>
+
   <div class="line"></div>
 
-  <section class = "container focusareas">
+  <section class = "container focusareas" id="focus">
     <div class="row">
       <div class="col-sm-12">
         <h3>Areas Of Focus</h3>
@@ -75,14 +57,15 @@ include('includes/header.php');
 
     </div>
 
-    <div class="learnmore">
-          <p>Learn More</p>
-    </div>
   </section>
+
+  <div class="learnmore">
+    <p>Learn More</p>
+  </div>
 
   <div class="line"></div>
 
-  <section class = "testimonials">
+  <section class = "testimonials" id="test">
     <div class="container testoverlay">
       <div class="row">
         <div class="col-sm-12">
@@ -122,7 +105,7 @@ include('includes/header.php');
 
   <div class="line"></div>
 
-  <section class = "container contact">
+  <section class = "container contact" id="contact">
     <div class="row">
       <div class="col-sm-12">
         <h3>Contact</h3>
@@ -137,35 +120,13 @@ include('includes/header.php');
     </div>
   </section>
 
+
+
+ <div id="map-canvas"></div>
+
 <section class = "map">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.214636488965!2d-79.47526800000003!3d43.768403199999945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e06adab62c3%3A0xdc7e16eb06113102!2s1120+Finch+Ave+W%2C+North+York%2C+ON+M3J+3H7!5e0!3m2!1sen!2sca!4v1418970757591" width="100%" height="450" frameborder="0" style="border:0"></iframe>
 </section>
-     
-
-    
-
-  <!-- <section class="container values">
-    <div class="row">
-        <div class="col-sm-4">
-          <img src="images/pillar.png" alt="History">
-          <p>Richard Stone has been practicing law in Ontario since 1975</p>
-        </div>
-    
-        <div class="col-sm-4">
-          <img src="images/scale.png" alt="Justice">
-          <p>Understanding</p>
-        </div>
-
-        <div class="col-sm-4">
-          <img src="images/shake.png" alt="Trust">
-          <p>Results</p>
-        </div>
-
-    </div>
-
-  </section> -->
-
-
 
 <?php include('includes/footer.php') ?>
 </body>
+  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.214636488965!2d-79.47526800000003!3d43.768403199999945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e06adab62c3%3A0xdc7e16eb06113102!2s1120+Finch+Ave+W%2C+North+York%2C+ON+M3J+3H7!5e0!3m2!1sen!2sca!4v1418970757591" width="100%" height="450" frameborder="0" style="border:0"></iframe> -->

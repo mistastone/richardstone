@@ -14,7 +14,6 @@ h3 {
 
 $red: rgb(127, 11, 0);
 
-
 .mainnav {
 	background-color: rgba(255,255,255,0.9);
 	border-bottom: 1px solid #ccc;
@@ -56,6 +55,8 @@ $red: rgb(127, 11, 0);
 		color: $red;
 	}
 }
+
+
 
 .vertical {
 	border-right: 1px solid #ccc;
@@ -105,17 +106,6 @@ $red: rgb(127, 11, 0);
 	margin-top: 38px;
 }
 
-// .values {
-// 	padding: 38px 38px;
-// 	img {
-// 	display: block;
-// 	margin: 0 auto;
-// 	width: 110px;
-// 	}
-// 	p {
-// 	text-align: center;	
-// 	}
-// }
 .learnmore {
 	margin: 0 auto;
 	margin-top:30px;
@@ -132,7 +122,6 @@ $red: rgb(127, 11, 0);
 		letter-spacing: 1px;
 	}
 }
-
 
 .learnmore:hover {
 	transition: background-color 0.5s ease;
@@ -188,6 +177,9 @@ $red: rgb(127, 11, 0);
 }
 }
 
+.contact {
+	padding-bottom: 35px;
+}
 .contact p {
 	text-align: center;
 	font: 300 22px/150% "Lato", Open-Sans, sans-serif;
@@ -203,9 +195,35 @@ $red: rgb(127, 11, 0);
 	margin-bottom: 20px;
 }
 
-iframe {
-	width: 100%;
-	padding-top: 35px;
+// iframe {
+// 	width: 100%;
+// 	padding-top: 35px;
+// }
+
+
+
+// #map-canvas {
+//         height: 400px;
+//         margin: 0px;
+//         padding-top: 35px;
+//       }
+
+.slicknav_menu {
+	display:none;
+}
+
+#menu {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.mainnav {
+		display:none;
+	}
+
+	.slicknav_menu {
+		display:block;
+	}
 }
 
  
