@@ -73,6 +73,9 @@ h3 {
     padding-top: 5px;
     padding-bottom: 5px; }
 
+.about {
+  margin-bottom: 10px; }
+
 .about p {
   width: 85%;
   text-align: center;
@@ -116,7 +119,8 @@ h3 {
     margin-left: 20px; }
   .focuslist h4 {
     padding-bottom: 12px;
-    font-size: 25px; }
+    font-size: 25px;
+    font-family: "Lato", Open-Sans, sans-serif; }
 
 .testimonials {
   background-image: url("images/testimonials.jpg");
@@ -159,6 +163,11 @@ h3 {
   margin-top: 20px;
   margin-bottom: 20px; }
 
+#map-canvas {
+  height: 400px;
+  margin: 0px;
+  padding: 0; }
+
 .slicknav_menu {
   display: none; }
 
@@ -170,4 +179,35 @@ h3 {
     display: none; }
 
   .slicknav_menu {
-    display: block; } }
+    display: block; }
+
+  .mobilenav p {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    padding-left: 15px;
+    padding-top: 20px;
+    font-family: "Lato", Open-Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400; } }
+@media (max-width: 650px) {
+  .focuslist ul li {
+    margin-left: 0; }
+
+  .learnmore {
+    width: 55%; }
+
+  .col-sm-12 {
+    padding: 0; }
+
+  .titlebanner h1 {
+    font-size: 45px; } }
+@media (max-width: 470px) {
+  .mobilenav p {
+    padding-top: 25px;
+    font-size: 12px; }
+
+  .vertical {
+    margin-right: 5px;
+    padding-left: 5px; } }

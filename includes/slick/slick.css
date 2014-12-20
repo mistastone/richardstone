@@ -55,3 +55,10 @@
 .slick-dots li.slick-active button:before { color: black; opacity: 0.75; }
 
 /*# sourceMappingURL=slick.css.map */
+
+@media (max-width: 650px) {
+	.slick-prev,
+	.slick-next {
+		top: 30%;
+	}
+}

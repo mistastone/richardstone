@@ -109,24 +109,19 @@ include('includes/header.php');
     <div class="row">
       <div class="col-sm-12">
         <h3>Contact</h3>
-        <p>1120 Finch Avenue West, First Floor</p>
+        <p>1120 Finch Avenue West</p>
         <p>Toronto, Ontario</p>
         <p>M3J 3H7</p>
         <div class="line"></div>
         <p>T: 416-667-9393</p>
         <p>Toll Free: 1-866-488-8088</p>
-        <a href="mailto:richard@rrichardstone.com?Subject=Hello" target="_top"><p>richard@rrichardstone.com</p></a>
+        <p>E:<a href="mailto:richard@rrichardstone.com?Subject=Hello" target="_top"> richard@rrichardstone.com</p></a>
       </div>
     </div>
   </section>
 
-
-
- <div id="map-canvas"></div>
-
-<section class = "map">
-</section>
+ <section class = "map" id="map-canvas"></section>
 
 <?php include('includes/footer.php') ?>
+
 </body>
-  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.214636488965!2d-79.47526800000003!3d43.768403199999945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e06adab62c3%3A0xdc7e16eb06113102!2s1120+Finch+Ave+W%2C+North+York%2C+ON+M3J+3H7!5e0!3m2!1sen!2sca!4v1418970757591" width="100%" height="450" frameborder="0" style="border:0"></iframe> -->

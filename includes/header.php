@@ -17,45 +17,32 @@
     <!-- <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Droid+Sans|Lato|Roboto|Raleway' rel='stylesheet' type='text/css'> -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
      
-
-
-
-     <style>
-       #map-canvas {
-        height: 400px;
-        margin: 0px;
-        padding-top: 35px
-      }
-    </style>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+   
     <script>
-var map;
-function initialize() {
-  var myLatlng = new google.maps.LatLng(43.768601, -79.475279);
-  var mapOptions = {
-    zoom: 13,
-    draggable: false,
-    scrollwheel: false,
-    center: myLatlng
-  }
-  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+        var map;
+        function initialize() {
+          var myLatlng = new google.maps.LatLng(43.768601, -79.475279);
+          var mapOptions = {
+            zoom: 13,
+            draggable: false,
+            scrollwheel: false,
+            center: myLatlng
+          }
+          var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-  var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: 'Law Offices of R. Richard Stone'
-  });
-}
+          var marker = new google.maps.Marker({
+              position: myLatlng,
+              map: map,
+              title: 'Law Offices of R. Richard Stone'
+          });
+        }
 
-google.maps.event.addDomListener(window, 'load', initialize);
+        google.maps.event.addDomListener(window, 'load', initialize);
 
-</script>
+    </script>
   
-
-
-
-
-  </head>
+</head>
 
 <!-- MAIN NAVIGATION -->
 
@@ -73,6 +60,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 <!-- MOBILE NAVIGATION -->
 
   <nav class = "mobilenav"> 
+  <p>1120 Finch Avenue West <span class = "vertical"></span>416-667-9393</p>
       <ul id="menu">
         <li><a href = "#about">About</a></li>
         <li><a href = "#focus">Areas of Focus</a></li>
