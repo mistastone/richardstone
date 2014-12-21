@@ -6,7 +6,10 @@
     <script type="text/javascript" src="includes/slick/slick.min.js"></script>
     <script type='text/javascript' src='js/main.js'></script>
     <script type='text/javascript' src='slicknav/jquery.slicknav.min.js'></script>
-
     <script src="http://maps.googleapis.com/maps/api/js"></script>
+
+<footer>
+	<p>&#169; R.Richard Stone 2015</p>
+</footer>
 
 

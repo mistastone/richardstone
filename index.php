@@ -10,24 +10,37 @@ include('includes/header.php');
 
   <div class="line"></div>
   
+<!-- About Us Section -->
+
   <section class = "container about" id = "about">
     <div class="row">
       <div class="col-sm-12">
         <h3>About Us</h3>
         <p>Over the past 40 years the Law Offices of R. Richard Stone has established itself as a model for legal performance in the Greater Toronto Area. Our goal is to provde our clients with piece of mind and strong representation during this difficult period.</p>
-  
+
+
+        <p class = "aboutfull">
+          Ralph Richard Stone was born in Toronto. He graduated from York University with a B.A. and was called to the Ontario Bar in 1975 after attending Osgoode Hall Law School. After articling, Richard established a private law practice as Stone and Yack with his long time friend and colleague Frederick A. Yack. In 2002, Richard Stone founded the law firm of the Law Offices of R. Richard Stone. For forty years, Richard has been involved in winning and resolving complex family disputes and criminal law cases. Richard has a reputation for achieving excellent results.
+        </p>
 
       </div>
-
     </div>
-
   </section>
 
-  <div class="learnmore">
+<!-- Learn More Button -->
+
+  <div class="learnmore hideabout">
+    <p>Hide Text</p>
+  </div>
+
+  <div class="learnmore" id="learnabout">
     <p>Learn More</p>
   </div>
 
+
   <div class="line"></div>
+
+<!-- Areas of Focus Section -->
 
   <section class = "container focusareas" id="focus">
     <div class="row">
@@ -35,7 +48,7 @@ include('includes/header.php');
         <h3>Areas Of Focus</h3>
       </div>
 
-      <div class="focuslist col-sm-4">
+      <div class="focuslist col-sm-4" id = "criminal">
             <ul>
               <h4>Criminal</h4>
               <li>Violent Crimes</li>
@@ -53,17 +66,47 @@ include('includes/header.php');
               <li>Cohabitation Agreements</li>
               <li>Child Support</li>
             </ul>
-      </div>  
+      </div>
+
+     <!--  <p class = "focusfull">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta, debitis tenetur reiciendis aliquam, quam magni ullam, incidunt perferendis libero minus eveniet. Ipsa esse doloribus id sit laudantium, recusandae iure. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ipsa, nobis. Porro sapiente sunt error recusandae voluptate ab, incidunt eaque veniam, quae quidem veritatis quod. Ea facere, obcaecati. Ipsum, voluptas.
+        </p>  -->
+
+      <!-- <div class="focuslist col-sm-6 col-sm-offset-3">
+        <ul>
+              <h4>Criminal</h4>
+              <li>Violent Crimes</li>
+              <li>Sex Crimes</li>
+              <li>Drugs and Narcotic Charges</li>
+              <li>Conspiracy Charges</li>
+            </ul>
+        <ul>
+              <h4>Family</h4>
+              <li>Separation Agreements</li>
+              <li>Marriage Contracts</li>
+              <li>Cohabitation Agreements</li>
+              <li>Child Support</li>
+            </ul>
+      </div -->
 
     </div>
-
   </section>
 
-  <div class="learnmore">
+<!-- Learn More Button -->
+
+<div class="learnmore hidefocus">
+    <p>Hide Text</p>
+  </div>
+
+  <div class="learnmore" id = "learnfocus">
     <p>Learn More</p>
   </div>
 
+
+
   <div class="line"></div>
+
+<!-- Testimonials Section -->
 
   <section class = "testimonials" id="test">
     <div class="container testoverlay">
@@ -105,6 +148,8 @@ include('includes/header.php');
 
   <div class="line"></div>
 
+<!-- Contact Section -->
+
   <section class = "container contact" id="contact">
     <div class="row">
       <div class="col-sm-12">
@@ -119,6 +164,8 @@ include('includes/header.php');
       </div>
     </div>
   </section>
+
+<!-- Google Map Insert -->
 
  <section class = "map" id="map-canvas"></section>
 
