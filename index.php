@@ -6,7 +6,7 @@ include('includes/header.php');
 
 ?>
 
-<body>
+<body> 
 
   <div class="line"></div>
   
