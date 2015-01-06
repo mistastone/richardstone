@@ -19,7 +19,7 @@ include('includes/header.php');
         <p>Over the past 40 years the Law Offices of R. Richard Stone has established itself as a model for legal performance in the Greater Toronto Area. Our goal is to provde our clients with piece of mind and strong representation during this difficult period.</p>
 
 
-        <p class = "aboutfull">
+        <p class = "aboutfull" id="aboutfull">
           Ralph Richard Stone was born in Toronto. He graduated from York University with a B.A. and was called to the Ontario Bar in 1975 after attending Osgoode Hall Law School. After articling, Richard established a private law practice as Stone and Yack with his long time friend and colleague Frederick A. Yack. In 2002, Richard Stone founded the law firm of the Law Offices of R. Richard Stone. For forty years, Richard has been involved in winning and resolving complex family disputes and criminal law cases. Richard has a reputation for achieving excellent results.
         </p>
 
@@ -29,9 +29,9 @@ include('includes/header.php');
 
 <!-- Learn More Button -->
 
-  <div class="learnmore hideabout">
+  <a href="#about"><div class="learnmore hideabout">
     <p>Hide Text</p>
-  </div>
+  </div></a>
 
   <div class="learnmore" id="learnabout">
     <p>Learn More</p>

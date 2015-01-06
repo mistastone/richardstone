@@ -8,6 +8,10 @@ h3 {
 	text-align: center;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 .row {
 	margin: 0;
 }
@@ -136,6 +140,7 @@ $red: rgb(127, 11, 0);
 	p {
 		font-size: 18px;
 		font-weight: 400;
+		color: #000;
 		padding: 15px 0;
 		text-transform: uppercase;
 		width: 100%;
@@ -143,9 +148,14 @@ $red: rgb(127, 11, 0);
 	}
 }
 
+
 .learnmore:hover {
 	transition: background-color 0.5s ease;
 	background-color: rgba(127,11,0,0.75);
+	p {
+		text-decoration: none;
+		color: #000;
+	}
 }
 
 
@@ -251,12 +261,19 @@ $red: rgb(127, 11, 0);
 
 footer {
 	width: 100%;
-	background-color: #000;
+	background-color: #121f1f;
 	p {
-	font: 300 14px/150% "Lato", Open-Sans, sans-serif;
-	color: #fff;
+	font: 300 13px/150% "Lato", Open-Sans, sans-serif;
+	color: #f7f7f7;
 	text-align: center;
 	padding: 3px;
+	}
+	a {
+		color: #B81F24;
+		&:hover {
+			color: #B81F24;
+			text-decoration: underline;
+		}
 	}
 }
 

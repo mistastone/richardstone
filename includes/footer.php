@@ -9,7 +9,7 @@
     <script src="http://maps.googleapis.com/maps/api/js"></script>
 
 <footer>
-	<p>&#169; R.Richard Stone 2015</p>
+	<p>&#169; R.Richard Stone LLP 2015<span class = "vertical"></span>All Rights Reserved<span class = "vertical"></span><a href="http://www.bymichaelstone.com">Designed by Michael Stone</p></a>
 </footer>
 
 

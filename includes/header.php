@@ -34,7 +34,8 @@
           var marker = new google.maps.Marker({
               position: myLatlng,
               map: map,
-              title: 'Law Offices of R. Richard Stone'
+              title: 'Law Offices of R. Richard Stone',
+              clickable: true,
           });
         }
 
